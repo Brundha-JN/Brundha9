@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+{
+let num1  =   prompt("Enter a positive number ");
+let num = parseInt(num1);
+let arr = [];
+
+
+for(let i = 1; i<num; i++){
+  arr.push(i);
+let odd = arr.filter(el=>el%2!=0);
+        console.log(odd);
+        let cube = odd.map((el)=>el**3);
+        console.log(cube);
+  console.log(arr[i]);
+}
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
